@@ -1,11 +1,11 @@
 
 
-def countdown(x)
+def countdown(input)
   
-  counter = x
-   while counter > 0 
-   puts "#{counter} SECOND(S)!"
-   counter -1
+  x = input
+  while input > 0
+   puts "#{x} SECOND(S)!"
+   input -=
  end
  
  
